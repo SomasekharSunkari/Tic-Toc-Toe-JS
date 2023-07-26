@@ -1,0 +1,36 @@
+#gameBoard{
+    display:grid;
+    text-align:center;
+    grid-template-columns:repeat(3,auto);
+}
+#gameContainer{
+    width:100vw;
+    text-align:center;
+    font-family:"Permenent ",cursive;
+    font-size:80px;
+
+}
+.cell{
+    border: 2px solid;
+    width:250px;
+    height:200px;
+    text-align:center;
+    border-width:10px;
+    cursor: pointer;
+    padding-top:60px;
+    font-size:100px;
+    line-height:100px;
+}
+#GameBG{
+  width:250px;
+  margin-left:33%;
+}
+
+#restartBtn{
+    height:5vh;
+    width:15vw;
+    font-size:70px;
+    font-family:"Permenent ",cursive;
+
+
+}
